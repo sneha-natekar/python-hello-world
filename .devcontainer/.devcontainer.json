@@ -44,5 +44,10 @@
 	"remoteUser": "vscode",
 	"features": {
 		"azure-cli": "latest"
+	}, 
+	{
+		
+		"postCreateCommand": "python helloworld.py'"
 	}
+			
 }
