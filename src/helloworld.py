@@ -1,16 +1,4 @@
-from typer import Option, Typer, echo
+def print_hello_world():
+    print("Hello, World!")
 
-app = Typer()
-
-
-def hello(name: str = "World") -> str:
-    return f"Hello, {name}!"
-
-
-@app.command()
-def main(name: str = Option(...)) -> None:
-    echo(hello(name))
-
-
-if __name__ == "__main__":
-    app()
+print_hello_world()
