@@ -1,0 +1,6 @@
+name: Python Hello World
+onCreateCommand: |
+  sudo apt-get update
+  sudo apt-get install -y python3
+  code .
+postCreateCommand: python3 -c 'print("Hello, World!")'
