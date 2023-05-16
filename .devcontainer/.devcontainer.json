@@ -1,6 +1,8 @@
 {
   "name": "Python Hello World",
   "image": "python:3.9",
-  "extensions": [],
+  "extensions": [
+    "ms-python.python"
+  ],
   "postCreateCommand": "python -c 'print(\"Hello, World!\")'"
 }
