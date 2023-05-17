@@ -1,5 +1,6 @@
 {
   "name": "Terminal and Print",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",  
   "extensions": [],
   "postCreateCommand": "./startup.sh"
 }
