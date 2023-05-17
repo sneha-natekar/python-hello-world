@@ -1,5 +1,5 @@
 {
   "name": "Terminal and Print",
   "extensions": [],
-  "postCreateCommand": "echo 'Hello, Codespaces!'"
+  "postCreateCommand": "./startup.sh"
 }
